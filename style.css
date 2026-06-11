@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to bottom, #0b3d0b, #1a1a1a);
+    color:white;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    margin-bottom:30px;
+}
+
+.processo{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.etapa{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.1);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:3rem;
+    transition:0.6s;
+}
+
+.etapa span{
+    font-size:14px;
+    margin-top:5px;
+}
+
+.seta{
+    font-size:24px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    background:#4caf50;
+    color:white;
+    font-weight:bold;
+}
+
+.ativo{
+    transform:scale(1.2);
+    box-shadow:0 0 20px #fff;
+}
+
+.cidade{
+    background:#ffcc00 !important;
+    color:#000;
+    box-shadow:0 0 25px #ffcc00;
+}
+
+#msg{
+    margin-top:20px;
+}
